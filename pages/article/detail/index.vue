@@ -35,10 +35,9 @@ export default Vue.extend({
   },
   methods: {
     getArticle() {
-      this.$endpoint.getArticle(1, 1, this.$global.normalizeUrl(this.$route.params.title).normal).then((articles: any) => {
+      this.$endpoint.getArticle(1, 1, this.$global.normalizeUrl(this.$route.params.title).normal)
+      .then((articles: any) => {
         this.articles = new ArticlesModel(articles.data)
-
-        console.log(this.articles)
       })
     }
   }

@@ -111,21 +111,8 @@ export default Vue.extend({
       form.append('category_id', this.category_id)
       form.append('is_visible', JSON.stringify(this.is_visible))
 
-      console.log(
-        {
-          title: this.title,
-          image: this.image,
-          description: this.description,
-          short_description: this.short_description,
-          category_id: this.category_id,
-          is_visible: this.is_visible,
-        }
-      )
-
       this.$endpoint.createArticle(form).then(_ => {
         this.$router.push('/article')
-      }).catch(err => {
-        console.log(err)
       })
     }
   }
