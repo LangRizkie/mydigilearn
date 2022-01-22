@@ -14,6 +14,7 @@ module.exports = {
     'wdio'
   ],
   rules: {
-    'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off'
+    'no-console': process.env.NODE_ENV === 'production' ? 'off' : 'error',
+    '@typescript-eslint/no-unused-vars':  process.env.NODE_ENV === 'production' ? 'off' : 'error'
   }
 }
