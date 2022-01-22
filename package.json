@@ -11,7 +11,8 @@
     "lint:style": "stylelint \"**/*.{vue,css}\" --ignore-path .gitignore",
     "prepare": "husky install",
     "lint": "npm run lint:js && npm run lint:style",
-    "test:e2e": "wdio wdio.conf.js"
+    "test:e2e": "wdio wdio.conf.js",
+    "heroku-postbuild": "nuxt generate"
   },
   "lint-staged": {
     "*.{js,vue}": "eslint",
