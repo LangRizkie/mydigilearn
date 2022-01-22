@@ -1,0 +1,5 @@
+.modal {
+  &-backdrop {
+    @apply flex fixed top-0 w-full h-screen bg-black/60 justify-center items-end sm:items-center;
+  }
+}

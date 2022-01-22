@@ -1,0 +1,5 @@
+.footer {
+  &-container {
+    @apply flex w-full h-14 text-white whitespace-nowrap overflow-hidden bg-red-500 justify-center;
+  }
+}

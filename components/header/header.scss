@@ -1,0 +1,16 @@
+$header-height: 5rem;
+
+.header {
+  &-container {
+    @apply fixed top-0 flex w-full
+      bg-white drop-shadow z-10 justify-center items-start;
+
+    height: $header-height;
+  }
+
+  &-wrapper {
+    @apply flex relative justify-between items-center;
+
+    height: $header-height;
+  }
+}

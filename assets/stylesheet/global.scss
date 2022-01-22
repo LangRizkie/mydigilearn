@@ -1,0 +1,27 @@
+* {
+  @apply font-quicksand text-base font-medium leading-relaxed outline-none transition-all;
+
+  p {
+    @apply mb-6 #{!important};
+  }
+}
+
+a {
+  @apply font-quicksand;
+}
+
+input {
+  @apply px-4 py-2 #{!important};
+}
+
+textarea {
+  @apply p-4 #{!important};
+}
+
+input, textarea {
+  @apply border border-gray-300;
+}
+
+.responsive {
+  @apply w-11/12 lg:max-w-screen-xl;
+}
