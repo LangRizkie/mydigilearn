@@ -28,7 +28,7 @@
     "hamburgers": "^1.1.3",
     "nuxt": "^2.15.7",
     "oh-vue-icons": "^1.0.0-rc1",
-    "postcss-nesting": "^10.1.1",
+    "postcss-nesting": "^10.1.4",
     "tw-elements": "^1.0.0-alpha9",
     "vue2-editor": "^2.10.3"
   },
